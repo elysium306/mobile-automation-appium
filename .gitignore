@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WDIO / Appium outputs
+allure-results/
+allure-report/
+reports/
+test-results/
+logs/
+debug/
+
+# Mobile artifacts
+*.apk
+*.ipa
+*.app
+*.xcarchive
+*.dSYM
+*.zip
+*.png
+*.mp4
+
+# Environment
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.iml
+.project
